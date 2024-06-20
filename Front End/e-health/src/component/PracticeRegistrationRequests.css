@@ -1,0 +1,71 @@
+.practise-registration-container h2{
+    color: white;
+    text-align: center;
+    margin: 1rem;;
+  }
+
+  .practise-registration-container table {
+    width: 95%;
+    /* border-collapse: collapse; */
+    /* background-color: #f0f4f8; */
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    /* opacity: 98%; */
+    background-color: rgba(255, 255, 255, 0.01);
+    color: #fff;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  }
+  
+  .practise-registration-container table th,
+  table td {
+    padding: 1rem 1rem;
+    border: 1px solid #000000;
+    color: white;
+  }
+  
+  .practise-registration-container table th {
+    background-color: #0d6efd8f;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .practise-registration-container table tbody tr{
+    background-color: transparent;
+  }
+  
+  .practise-registration-container table tbody tr:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .practise-registration-container table td {
+    text-align: left;
+  }
+
+/* .practise-registration-container .approve {
+  background-color: rgb(85, 164, 130);
+}
+
+.practise-registration-container .approve:hover {
+  background-color: rgb(69, 145, 112);
+}
+
+.practise-registration-container .decline {
+  background-color: rgb(203, 69, 52);
+}
+
+.practise-registration-container .decline:hover {
+  background-color: rgb(171, 42, 42);
+}
+
+.practise-registration-container .offer-alternative {
+  background-color: rgb(203, 127, 52);
+}
+
+.practise-registration-container .offer-alternative:hover {
+  background-color: rgb(183, 115, 47);
+} */
+

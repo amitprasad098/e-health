@@ -1,0 +1,11 @@
+footer {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #224665;
+  /* background-color: transparent; */
+  background-color: rgba(255, 255, 255, 0.01);
+  color: #fff;
+  border-radius: 5px;
+  backdrop-filter: blur(4px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+}

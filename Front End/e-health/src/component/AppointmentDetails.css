@@ -1,0 +1,35 @@
+
+.appointment-details-container h2 {
+    color: white;
+}
+
+.appointment-details-container h3 {
+    color: white;
+}
+
+.appointment-details-container p {
+    color: white;
+}
+
+.appointment-details-container .singular-details {
+    display: flex;
+    background-color: #3b98b1;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    opacity: 0.95;
+}
+
+.appointment-details-container .multiple-details {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #a58f47;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    opacity: 0.95;
+}
+
+
+  

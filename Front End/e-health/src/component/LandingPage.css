@@ -1,0 +1,136 @@
+.full-page{
+  height: 100vh;
+}
+
+.logo{
+  max-width: 20rem;
+}
+
+.mob-logo{
+  display: none;
+  height: 10rem;
+}
+
+
+.left-description{
+  background-color:#f5f5f5;
+}
+
+.sign-form-container{
+  background-color: rgba(255, 255, 255, 0.01);
+  color: #fff;
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 30px;
+  margin: 2rem auto;
+  width: 80%;
+  position: relative;
+  top: 6rem;
+}
+
+.button-container{
+  padding: 1rem;
+}
+
+.button-container button{
+  background-color: transparent;
+  border: none;
+  color: #f5f5f5;
+  font-size:large;
+  font-weight: bold;
+}
+
+.button-container .active{
+  
+  border-bottom: solid 2px #fff ;
+  text-transform: uppercase;
+}
+
+#sign-in-form .sign-in-button{
+  width: 50%;
+}
+
+#sign-in-form .forgot-pass-button{
+  width: 20%;
+}
+
+#sign-up-form button{
+  width: 80%;
+}
+
+
+#sign-in-form .sign-in-button, #sign-up-form .sign-up-button{
+  border: #f5f5f5 1px solid;
+  color: #f5f5f5;
+}
+
+#sign-in-form .sign-in-button:hover, #sign-up-form .sign-up-button:hover{
+  border: black 1px solid;
+  background-color: #f5f5f5 !important;
+  color: black;
+}
+
+#sign-in-form .forgot-pass-button{
+  color: #f5f5f5;
+}
+
+#sign-in-form .forgot-pass-button:hover{
+  border-bottom: white 1px solid;
+  border-radius: 0;
+  background-color: transparent !important;
+  color: white;
+}
+
+
+.required-class{
+  border: red 2px solid !important;
+}
+
+#contactHelpSignup{
+  color: white;
+}
+
+#eye-icon {
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#eye-icon input {
+  border: none;
+}
+
+@media only screen and (max-width: 767px){
+
+  .left-description{
+    display: none;
+  }
+  
+  .sign-form-container{
+    min-width: 300px;
+  }
+
+  #sign-in-form button{
+    width: 100%;
+  }
+  
+  #sign-up-form button{
+    width: 100%;
+  }
+
+  .sign-form-container{
+    top: 3rem;
+  }
+
+  .mob-logo{
+    display: flex;
+    justify-content: center;
+  }
+
+
+}

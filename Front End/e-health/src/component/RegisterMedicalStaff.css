@@ -1,0 +1,27 @@
+#register-medical-staff-heading{ 
+    margin: 1rem;
+    text-align: center;
+    color: white;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+  }
+  
+  .card-text {
+    margin-bottom: 15px;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  

@@ -1,0 +1,72 @@
+.admin-dashboard-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .admin-dashboard-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+    padding-top: 1rem;
+    text-align: center;
+  }
+  
+  .admin-dashboard-container table {
+    width: 75vw;
+    border-collapse: collapse;
+    background-color: #f0f4f8;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 98%;
+  }
+  
+  .admin-dashboard-container table th, table td {
+    padding: 1rem 1rem;
+    border: 1px solid #000000;
+  }
+  
+  .admin-dashboard-container table th {
+    background-color: #c3caeb;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .admin-dashboard-container table td {
+    text-align: left;
+  }
+  
+  .admin-dashboard-container .btn {
+    padding: 8px 12px;
+    border: 1px solid black;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .admin-dashboard-container .approve {
+    background-color: rgb(85, 164, 130);
+  }
+
+  .admin-dashboard-container .approve:hover {
+    background-color: rgb(69, 145, 112);
+    color: #000000;
+  }
+
+  .admin-dashboard-container .decline {
+    background-color: rgb(203, 69, 52);
+  }
+
+  .admin-dashboard-container .decline:hover {
+    background-color: rgb(171, 42, 42);
+    color: #000000;
+  }
+
+  

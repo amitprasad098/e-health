@@ -1,0 +1,54 @@
+
+  #manage-data-heading{ 
+    margin: 1rem;
+    text-align: center;
+    color: white;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+  }
+  
+  .card-text {
+    margin-bottom: 15px;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .my-data-container{
+    background-color: rgba(255, 255, 255, 0.01);
+    color: #fff;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    width: 95%;
+    padding: 1rem;
+
+  }
+  .my-data-container h2{
+    text-align: center;
+    margin: 1rem;
+  }
+
+  #my-data-row{
+    justify-content: center;
+
+  }
+
+  .my-data-pane div:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+ 

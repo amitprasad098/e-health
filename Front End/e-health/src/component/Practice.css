@@ -1,0 +1,46 @@
+.practice-container {
+padding: 1rem;
+}
+
+.practice-container h2{
+  color: white;
+  text-align: center;
+}
+
+.card {
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    background-color: rgb(221, 244, 228);
+    border-color: black;
+    margin-bottom: 10px;
+    /* overflow-y: auto;  */
+    height: calc(100vh - 100px);
+    /* margin-right: 1rem; */
+    /* max-width: minmax(250px,auto); */
+    flex: 0 0 calc(24% - 10px);
+  }
+  
+  .card-body {
+    padding: 20px; /* Add padding inside the card body */
+  }
+  
+  .card-title {
+    font-size: 18px; /* Set the font size for the practice name */
+    font-weight: bold; /* Make the practice name bold */
+    margin-bottom: 10px; /* Add margin at the bottom of the practice name */
+  }
+  
+  .card-text {
+    font-size: 14px; /* Set the font size for the practice description and address */
+    margin-bottom: 5px; /* Add margin at the bottom of the practice description and address */
+  }
+  
+
+  .card:hover {
+    transform: scale(1.05);
+    border: 1px #0d6efd solid;
+  }
+  
+  button:disabled:hover{
+    cursor:not-allowed !important;
+  }
